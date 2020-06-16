@@ -1,6 +1,6 @@
 <script src="./Home.js"></script>
 <template>
   <div>
-    <Header />
+    <EmployeeTable />
   </div>
 </template>

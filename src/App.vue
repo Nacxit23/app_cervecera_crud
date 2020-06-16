@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <router-view />
+    <Header />
+    <b-row class="justify-content-center">
+      <b-col cols="4">
+        <router-view />
+      </b-col>
+    </b-row>
   </div>
 </template>
 
 <script>
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+import { Header } from "@/components/BrowserComponent";
 
 export default {
   name: "App",
   data() {
     return {};
+  },
+  components: {
+    Header
   }
 };
 </script>

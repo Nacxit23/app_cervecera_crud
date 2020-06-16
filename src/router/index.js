@@ -8,16 +8,14 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/*",
+      path: "/",
       name: "Home",
       component: () => import("@/views/Home/Home.vue"),
-      children: [
-        {
-          path: "/nuevo",
-          name: "Register",
-          component: () => import("@/views/Register/Register.vue"),
-        },
-      ],
+    },
+    {
+      path: "/nuevo",
+      name: "Register",
+      component: () => import("@/views/Register/Register.vue"),
     },
   ],
 });

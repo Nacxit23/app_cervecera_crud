@@ -1,4 +1,4 @@
-import { Header } from "@/components/BrowserComponent";
+import { EmployeeTable } from "@/components/BrowserComponent";
 
 export default {
   name: "Home",
@@ -6,6 +6,6 @@ export default {
     return {};
   },
   components: {
-    Header,
+    EmployeeTable,
   },
 };

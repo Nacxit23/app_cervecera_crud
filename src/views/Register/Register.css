@@ -1,0 +1,10 @@
+.colorAlert {
+  background: #d4edda;
+  border-radius: 40px;
+  border: 2px solid #155724;
+}
+.colorAlertError {
+  background: #cc3366;
+  border-radius: 40px;
+  border: 2px solid red;
+}
