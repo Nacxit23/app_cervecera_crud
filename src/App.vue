@@ -1,10 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
     <router-view />
   </div>
 </template>
 
+<script>
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+
+export default {
+  name: "App",
+  data() {
+    return {};
+  }
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
