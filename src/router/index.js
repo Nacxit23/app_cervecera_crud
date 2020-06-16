@@ -11,6 +11,13 @@ const router = new VueRouter({
       path: "/*",
       name: "Home",
       component: () => import("@/views/Home/Home.vue"),
+      children: [
+        {
+          path: "/nuevo",
+          name: "Register",
+          component: () => import("@/views/Register/Register.vue"),
+        },
+      ],
     },
   ],
 });

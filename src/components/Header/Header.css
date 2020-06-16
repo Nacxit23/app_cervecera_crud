@@ -4,3 +4,8 @@
   background: #9f7aea;
   font-family: "Roboto", sans-serif;
 }
+.navLink {
+  text-decoration: none;
+  color: #2d3748;
+  font-weight: 700;
+}
